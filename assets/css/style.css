@@ -111,10 +111,12 @@ nav .list-item .dropdown{
     transition: .5s;
     box-shadow: -10px 0 5px #969593be;
     background-color: #eef2f8b4;
+    visibility: hidden;
 }
 nav .list-item .item:hover .dropdown{
     opacity: 1;
     top: 20px;
+    visibility: visible;
 }
 
 
